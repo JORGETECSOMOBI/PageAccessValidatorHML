@@ -1,0 +1,31 @@
+name: Cypress Tests
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "0 6,18 * * *"  # Executa às 6h e 18h todos os dias
+  workflow_dispatch:  # Evento para execução manual
+
+jobs:
+  cypress_test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16  # Use a versão do Node.js compatível com o projeto
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Set browser language to Portuguese
+        run: echo 'export LANG=pt_BR.UTF-8' >> $GITHUB_ENV
+
+      - name: Run Cypress tests
+        run: npx cypress run

@@ -1,0 +1,18 @@
+{
+  "usuario": "https://web.test.tmob.com.br/user",
+  "organizacao": "https://web.test.tmob.com.br/user/organizations",
+  "postoAtendimento": "https://web.test.tmob.com.br/user/servicestations",
+  "tipoUsuario": "https://web.test.tmob.com.br/user/userTypes",
+  "pcd": "https://web.test.tmob.com.br/user/userDisabilityEquipments",
+  "periodoEstudantil": "https://web.test.tmob.com.br/user/userStudentPeriods",
+  "tipoEstudante": "https://web.test.tmob.com.br/user/userStudentTypes",
+  "escolaridade": "https://web.test.tmob.com.br/user/userStudentLevels",
+  "tipoDocumento": "https://web.test.tmob.com.br/user/documentTypes",
+  "icd": "https://web.test.tmob.com.br/user/usericds",
+  "transporte": "https://web.test.tmob.com.br/transport",
+  "visualizaConsorcioId53": "https://web.test.tmob.com.br/transport/companyAssociation/53",
+  "visualizaGrupoOperador": "https://web.test.tmob.com.br/transport/operatorGroup/12",
+  "editaGrupoOperador": "https://web.test.tmob.com.br/transport/operatorGroup/12/edit",
+  "midia": "https://web.test.tmob.com.br/media",
+  "dispositivo": "https://web.test.tmob.com.br/device/?companyDesc&deviceType=validator&tabs=1"
+}

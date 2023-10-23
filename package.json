@@ -1,0 +1,14 @@
+{
+  "name": "pageaccessvalidator",
+  "version": "1.0.0",
+  "description": "Testes de acesso as paginas do projeto",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Jorge Luiz Cardoso",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^13.3.2"
+  }
+}
