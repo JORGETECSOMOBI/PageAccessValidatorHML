@@ -5,6 +5,7 @@ class UsuarioPage {
 
     beforeUsuario() {
         login.loginAndCaptureCookies()
+        home.idiomaPortugues()
     }
 
     acessandoTelaOrganizaçao() {
@@ -55,7 +56,5 @@ class UsuarioPage {
         cy.get('a[href="/user/usericds"]').click({ force: true })
         return this
     }
-
-
 }
 export default new UsuarioPage
