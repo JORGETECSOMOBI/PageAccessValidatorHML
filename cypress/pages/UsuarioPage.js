@@ -5,7 +5,9 @@ class UsuarioPage {
 
     beforeUsuario() {
         login.loginAndCaptureCookies()
-        home.idiomaPortugues()
+        home
+            .usuario()
+            .idiomaPortugues()
     }
 
     acessandoTelaOrganizaçao() {

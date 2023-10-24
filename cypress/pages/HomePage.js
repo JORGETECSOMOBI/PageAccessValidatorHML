@@ -84,8 +84,6 @@ class HomePage {
         return this
     }
 
-
-
     comercializacao() {
         cy.get('[href="/commerce"] > .ant-row > .ant-typography').click({ force: true })
         cy.get('#root li:nth-child(2) a').should('have.text', 'Rede de vendas')

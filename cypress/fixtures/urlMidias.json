@@ -1,0 +1,18 @@
+{
+    "midia": "https://web.test.tmob.com.br/media",
+    "ordemGravacao":"https://web.test.tmob.com.br/media/persoOrders",
+    "limiteUso":"https://web.test.tmob.com.br/media/useLimitRoles",
+    "grupoTempo":"https://web.test.tmob.com.br/media/timeGroups",
+    "GrupoRelatorio":"https://web.test.tmob.com.br/media/reportGroups",
+    "produtoTransporte":"https://web.test.tmob.com.br/media/transitProducts",
+    "tipoMidias":"https://web.test.tmob.com.br/media/mediaTypes",
+    "produtoExterno":"https://web.test.tmob.com.br/media/externalTransitProducts",
+    "razoesHotlist":"https://web.test.tmob.com.br/media/hotlistReasons",
+    "hotlistMidia":"https://web.test.tmob.com.br/media/hotlists",
+    "hotListProduto":"https://web.test.tmob.com.br/media/hotlistproduct",
+    "horlistPermanente":"https://web.test.tmob.com.br/media/hotlistExternal",
+    "cotas":"https://web.test.tmob.com.br/media/quotas",
+    "arquivosMidia":"https://web.test.tmob.com.br/media/mediaFiles",
+    "recargas":"https://web.test.tmob.com.br/media/recharges",
+    "arquivosOperacionais":"https://web.test.tmob.com.br/media/operationalFiles"
+}

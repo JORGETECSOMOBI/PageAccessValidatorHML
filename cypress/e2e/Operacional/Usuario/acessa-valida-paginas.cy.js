@@ -1,13 +1,11 @@
-import usuario from '../../pages/UsuarioPage'
-import url from '../../fixtures/url.json'
-import home from '../../pages/HomePage'
-
+import usuario from '../../../pages/UsuarioPage'
+import url from '../../../fixtures/urlUsuarios.json'
+import home from '../../../pages/HomePage'
 
 describe('Acessando e validando Url e Texto de todas as páginas', () => {
 
     beforeEach(() => {
-        usuario.beforeUsuario()
-        home.usuario()     
+        usuario.beforeUsuario()    
     })
 
     it('Valida url e texto na página de usuário', () => {
