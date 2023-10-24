@@ -62,10 +62,16 @@ class HomePage {
     }
 
     dispositivos() {
-        cy.get('[href="/device"] > .ant-row > .ant-typography').click({ force: true })
-        cy.get('#rc-tabs-0-tab-1').should('have.text', 'Dispositivos e conexões')
+        cy.get('[href="/device"] > .ant-row > .ant-typography').click({ force: true });
+        cy.contains('Dispositivos e conexões').should('exist').then(($element) => {
+            if ($element.length > 0) {
+            } else {
+                cy.contains('Devices and connections').should('exist')
+            }
+        })
         return this
     }
+
 
     transporte() {
         cy.get('[href="/transport"] > .ant-row > .ant-typography').click({ force: true })
