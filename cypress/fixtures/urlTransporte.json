@@ -1,0 +1,17 @@
+{
+    "transporte": "https://web.test.tmob.com.br/transport",
+    "terminal": "https://web.test.tmob.com.br/transport/terminal",
+    "gurpoTerminais": "https://web.test.tmob.com.br/transport/terminalGroups",
+    "controleTrilhos": "https://web.test.tmob.com.br/transport/tracksController",
+    "sindicato": "https://web.test.tmob.com.br/transport/syndicates",
+    "orgaoGestor": "https://web.test.tmob.com.br/transport/transportAuthorities",
+    "consorcio": "https://web.test.tmob.com.br/transport/companyAssociations",
+    "grupoOperadora": "https://web.test.tmob.com.br/transport/transportOperatorGroups",
+    "operadora": "https://web.test.tmob.com.br/transport/operators",
+    "grupoDeOperador": "https://web.test.tmob.com.br/transport/operatorGroups",
+    "linha": "https://web.test.tmob.com.br/transport/lines",
+    "grupoDeLinha": "https://web.test.tmob.com.br/transport/lineGroups",
+    "motivoHotlist": "https://web.test.tmob.com.br/transport/hotlistReasons",
+    "calendarioOperacional": "https://web.test.tmob.com.br/transport/fleetSchedules",
+    "arquivosOperacionais": "https://web.test.tmob.com.br/transport/operationalFiles"
+}
