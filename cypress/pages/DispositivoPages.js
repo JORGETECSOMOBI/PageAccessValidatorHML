@@ -8,7 +8,7 @@ class DispositivosPage {
         login.loginAndCaptureCookies()
         home
             .dispositivos()
-            .idiomaPortugues()
+            .idiomaIngles()
             .validaURL(url.dispositivo)
     }
 

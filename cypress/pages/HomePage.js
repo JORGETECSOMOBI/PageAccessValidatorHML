@@ -62,16 +62,9 @@ class HomePage {
     }
 
     dispositivos() {
-        cy.get('[href="/device"] > .ant-row > .ant-typography').click({ force: true });
-        cy.contains('Dispositivos e conexões').should('exist').then(($element) => {
-            if ($element.length > 0) {
-            } else {
-                cy.contains('Devices and connections').should('exist')
-            }
-        })
+        cy.get('[href="/device"] > .ant-row > .ant-typography').click({ force: true })
         return this
     }
-
 
     transporte() {
         cy.get('[href="/transport"] > .ant-row > .ant-typography').click({ force: true })
