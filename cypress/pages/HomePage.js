@@ -63,7 +63,7 @@ class HomePage {
 
     dispositivos() {
         cy.get('[href="/device"] > .ant-row > .ant-typography').click({ force: true })
-        cy.get('#rc-tabs-0-tab-1').should('have.text', 'Devices and connections')
+        cy.get('#rc-tabs-0-tab-1').should('have.text', 'Dispositivos e conexões')
         return this
     }
 
