@@ -8,8 +8,8 @@ class DispositivosPage {
         login.loginAndCaptureCookies()
         home
             .dispositivos()
-            .validaURL(url.dispositivo)
             .idiomaPortugues()
+            .validaURL(url.dispositivo)
     }
 
     dashboard() {
