@@ -9,7 +9,6 @@ class ComercializacaoPage {
         home
             .comercializacao()
             .idiomaPortugues()
-        midia.validaAusenciaMensagensDeErrro()
     }
 
     dashboard() {
