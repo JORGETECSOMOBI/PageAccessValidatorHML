@@ -1,6 +1,5 @@
 import login from '../pages/LoginPage'
 import home from '../pages/HomePage'
-import midia from '../pages/MidiaPage'
 
 class ComercializacaoPage {
 
