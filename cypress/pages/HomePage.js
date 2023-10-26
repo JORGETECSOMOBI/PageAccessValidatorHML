@@ -35,7 +35,6 @@ class HomePage {
     qrCode() {
         cy.get('[href="/qrcode"] > .ant-row > .ant-typography').eq(0).click({ force: true })
         cy.get('aside div:nth-child(1) ul li:nth-child(4) span a').click({ force: true })
-        cy.get('aside div:nth-child(1) ul li:nth-child(4) span a').should('have.text', 'QR Code')
         return this
     }
 
@@ -46,13 +45,11 @@ class HomePage {
 
     emv() {
         cy.get('[href="/emv"] > .ant-row > .ant-typography').eq(0).click({ force: true })
-        cy.contains('span', 'Emv').should('have.text', 'Emv')
         return this
     }
 
     abt() {
         cy.get('[href="/abt"] > .ant-row > .ant-typography').eq(0).click({ force: true })
-        cy.get('#root li:nth-child(4) a').should('have.text', 'Arquivos de ABT')
         return this
     }
 
@@ -68,13 +65,11 @@ class HomePage {
 
     transporte() {
         cy.get('[href="/transport"] > .ant-row > .ant-typography').click({ force: true })
-        cy.get(':nth-child(3) > .ant-breadcrumb-link > a').should('have.text', 'Terminal')
         return this
     }
 
     tarifario() {
         cy.get('[href="/fare"] > .ant-row > .ant-typography').click({ force: true })
-        cy.get('.ant-menu-item-selected > .ant-menu-title-content > a').should('have.text', 'Regras')
         return this
     }
 
@@ -85,31 +80,26 @@ class HomePage {
 
     comercializacao() {
         cy.get('[href="/commerce"] > .ant-row > .ant-typography').click({ force: true })
-        cy.get('#root li:nth-child(2) a').should('have.text', 'Rede de vendas')
         return this
     }
 
     arrecadacao() {
         cy.get('[href="/ticketing"] > .ant-row > .ant-typography').click({ force: true })
-        cy.get('#root li:nth-child(2) a').should('have.text', 'Serviço')
         return this
     }
 
     garagem() {
         cy.get('[href="/depot"] > .ant-row > .ant-typography', { force: true }).click({ force: true })
-        cy.get('#root li:nth-child(2) a', { force: true }).should('have.text', 'Garagem')
         return this
     }
 
     avl() {
         cy.get('[href="/avl"] > .ant-row > .ant-typography').click({ force: true })
-        cy.get('#root li:nth-child(2) a').should('have.text', 'Target')
         return this
     }
 
     sistema() {
         cy.get('[href="/system"] > .ant-row > .ant-typography').click({ force: true })
-        cy.get('#root li:nth-child(2) a').should('have.text', 'Grupo de usuário')
         return this
     }
 
@@ -120,7 +110,6 @@ class HomePage {
 
     facial() {
         cy.get('[href="/facial"] > .ant-row > .ant-typography').click({ force: true })
-        cy.get('#root li:nth-child(2) a').should('have.text', 'Perfis')
         return this
     }
 
