@@ -1,0 +1,6 @@
+{
+    "comunicacao": "https://web.test.tmob.com.br/depot/",
+    "garagem": "https://web.test.tmob.com.br/depot/depots",
+    "ultimasComunicacoes": "https://web.test.tmob.com.br/depot/lastCommunications",
+    "arquivosOperacionais": "https://web.test.tmob.com.br/depot/operationalFiles"
+}

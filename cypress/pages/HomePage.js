@@ -96,8 +96,8 @@ class HomePage {
     }
 
     garagem() {
-        cy.get('[href="/depot"] > .ant-row > .ant-typography').click({ force: true })
-        cy.get('#root li:nth-child(2) a').should('have.text', 'Garagem')
+        cy.get('[href="/depot"] > .ant-row > .ant-typography', { force: true }).click({ force: true })
+        cy.get('#root li:nth-child(2) a', { force: true }).should('have.text', 'Garagem')
         return this
     }
 
@@ -134,10 +134,14 @@ class HomePage {
         return this
     }
 
+    validaAusenciaDetexto(texto) {
+        cy.should('not.contain', texto)
+        return this
+    }
+
     validatextoElemento(texto) {
         cy.get('.ant-row-start > .ant-typography').contains(texto, { force: true }).should('have.text', texto, { force: true })
         return this
     }
-
 }
 export default new HomePage
