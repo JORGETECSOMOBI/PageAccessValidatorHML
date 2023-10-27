@@ -132,5 +132,11 @@ class HomePage {
         cy.get('.ant-row-start > .ant-typography').contains(texto, { force: true }).should('have.text', texto, { force: true })
         return this
     }
+
+    validaAusenciaMensagensDeErrro() {
+        this.validaAusenciaDetexto('Ocorreu um erro ao processar sua solicitação')
+        this.validaAusenciaDetexto('Error inesperado')
+        return this
+    }
 }
 export default new HomePage

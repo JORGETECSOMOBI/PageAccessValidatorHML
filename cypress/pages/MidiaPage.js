@@ -95,11 +95,5 @@ class MidiaPage {
         cy.contains('Arquivos Operacionais').click({ force: true })
         return this
     }
-
-    validaAusenciaMensagensDeErrro() {
-        home
-            .validaAusenciaDetexto('Ocorreu um erro ao processar sua solicitação')
-            .validaAusenciaDetexto('Error inesperado')
-    }
 }
 export default new MidiaPage
