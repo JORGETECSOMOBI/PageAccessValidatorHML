@@ -1,7 +1,7 @@
 {
     "dispositivo": "https://web.test.tmob.com.br/device/?companyDesc&deviceType=validator&tabs=1",
     "dashboard": "https://web.test.tmob.com.br/device/dashboard",
-    "dispositivos": "https://web.test.tmob.com.br/device/?companyDesc&deviceType=validator&tabs=1",
+    "dispositivos": "https://web.test.tmob.com.br/device/things",
     "feriado": "https://web.test.tmob.com.br/device/holidays",
     "firmware": "https://web.test.tmob.com.br/device/firmwares",
     "parametros": "https://web.test.tmob.com.br/device/parameters",
