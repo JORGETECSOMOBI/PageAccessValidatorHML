@@ -1,0 +1,13 @@
+{
+    "dashboard": "https://web.test.tmob.com.br/ticketing/dashboard",
+    "servico": "https://web.test.tmob.com.br/ticketing/services",
+    "realizarColeta": "https://web.test.tmob.com.br/ticketing/collect",
+    "processamentoDeArquivos": "https://web.test.tmob.com.br/ticketing/fileProcessings",
+    "uso": "https://web.test.tmob.com.br/ticketing/usage",
+    "grupoDeColeta": "https://web.test.tmob.com.br/ticketing/groupCollectors",
+    "tipoGrupoDeColeta": "https://web.test.tmob.com.br/ticketing/collectorProductGroupTypes",
+    "coleta": "https://web.test.tmob.com.br/ticketing/collections",
+    "testeDeCatraca": "https://web.test.tmob.com.br/ticketing/turnistileTests",
+    "arquivosDeMidia": "https://web.test.tmob.com.br/ticketing/operatorCollectionFile",
+    "arquivosOperacionais": "https://web.test.tmob.com.br/ticketing/operationalFiles"
+}
