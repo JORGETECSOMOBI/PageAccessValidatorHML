@@ -2,7 +2,7 @@ import login from '../pages/LoginPage'
 import home from '../pages/HomePage'
 
 class MidiaPage {
-    
+
     beforeMidia() {
         login.loginAndCaptureCookies()
         home
@@ -94,6 +94,12 @@ class MidiaPage {
     arquivosOperacionais() {
         cy.contains('Arquivos Operacionais').click({ force: true })
         return this
+    }
+
+    validaAusenciaMensagensDeErrro() {
+        home
+            .validaAusenciaDetexto('Ocorreu um erro ao processar sua solicitação')
+            .validaAusenciaDetexto('Error inesperado')
     }
 }
 export default new MidiaPage
