@@ -22,7 +22,7 @@ class HomePage {
     }
 
     idiomaPortugues() {
-        cy.get('.ant-select-selection-item').click({ force: true })
+        cy.get('.ant-select-selection-item').eq(0).click({ force: true })
         cy.get('p.mastermastertext-0-2-18').contains('PT').click({ force: true })
         return this
     }
@@ -104,7 +104,7 @@ class HomePage {
     }
 
     sam() {
-        cy.get('[href="/sam"] > .ant-row > .ant-typography').click({ force: true })
+        cy.get(':nth-child(10) > .mastermastercontainer-0-2-44 > .mastermasterspace-0-2-47 > a > .ant-row').click({ force: true })
         return this
     }
 

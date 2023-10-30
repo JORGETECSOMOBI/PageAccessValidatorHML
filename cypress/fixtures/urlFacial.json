@@ -1,0 +1,7 @@
+{
+    "facial": "https://web.test.tmob.com.br/facial",
+    "audit": "https://web.test.tmob.com.br/facial/audit",
+    "motivoDeIrregularidade": "https://web.test.tmob.com.br/facial/irregularityReasons",
+    "perfis": "https://web.test.tmob.com.br/facial/profiles",
+    "arquivosOperacionais": "https://web.test.tmob.com.br/facial/operationalFiles"
+}

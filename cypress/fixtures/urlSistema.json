@@ -1,0 +1,7 @@
+{
+    "sistema": "https://web.test.tmob.com.br/system",
+    "grupoDeUsuario": "https://web.test.tmob.com.br/system/userGroups",
+    "grupoDeClientes": "https://web.test.tmob.com.br/system/clientGroups",
+    "usuario": "https://web.test.tmob.com.br/system/users",
+    "cliente": "https://web.test.tmob.com.br/system/clients"
+}
