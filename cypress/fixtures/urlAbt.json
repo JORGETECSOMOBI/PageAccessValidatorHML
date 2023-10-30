@@ -1,0 +1,7 @@
+{
+    "abt": "https://web.test.tmob.com.br/abt",
+    "carteira": "https://web.test.tmob.com.br/abt/wallets",
+    "razoesDeHotlist": "https://web.test.tmob.com.br/abt/hotlistReasons",
+    "razoesdeTransacao": "https://web.test.tmob.com.br/abt/transactionReasons",
+    "arquivosDeAbt": "https://web.test.tmob.com.br/abt/files"
+}

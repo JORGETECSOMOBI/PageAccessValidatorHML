@@ -1,0 +1,17 @@
+{
+    "emv": "https://web.test.tmob.com.br/emv",
+    "dashboard": "https://web.test.tmob.com.br/emv/dashboard",
+    "cartoes": "https://web.test.tmob.com.br/emv/cards",
+    "par": "https://web.test.tmob.com.br/emv/pars",
+    "bin": "https://web.test.tmob.com.br/emv/bin",
+    "motivosDeHotlist": "https://web.test.tmob.com.br/emv/hotlistReasons",
+    "hotlist": "https://web.test.tmob.com.br/emv/hotlists",
+    "hotlistPar": "https://web.test.tmob.com.br/emv/hotlistPars/",
+    "retentetiva": "https://web.test.tmob.com.br/emv/debitRecovery",
+    "usos": "https://web.test.tmob.com.br/emv/usages",
+    "produtos": "https://web.test.tmob.com.br/emv/products",
+    "resumodeEmv": "https://web.test.tmob.com.br/emv/emvSummary",
+    "arquivosDemidia": "https://web.test.tmob.com.br/emv/emvFiles",
+    "arquivosOperacionais": "https://web.test.tmob.com.br/emv/operationalFiles",
+    "terminalAdquirente": "https://web.test.tmob.com.br/emv/emvToTerminalAcquirer"
+}
