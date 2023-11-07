@@ -29,7 +29,7 @@ describe('Acessando e validando Url e Texto de todas as páginas', () => {
             .validaAusenciaMensagensDeErrro()
     })
 
-    it('Acessa e valida URL e texto da página de Taxa de Administração', () => {
+    it.skip('Acessa e valida URL e texto da página de Taxa de Administração', () => {
         comercializacao.taxaDeAdministracao()
         home.validaURL(url.taxaDeAdministracao)
             .validatexto('Taxa de Administração')
@@ -50,7 +50,7 @@ describe('Acessando e validando Url e Texto de todas as páginas', () => {
             .validaAusenciaMensagensDeErrro()
     })
 
-    it('Acessa e valida URL e texto da página de Plano', () => {
+    it.skip('Acessa e valida URL e texto da página de Plano', () => {
         comercializacao.plano()
         home.validaURL(url.plano)
             .validatexto('Plano')

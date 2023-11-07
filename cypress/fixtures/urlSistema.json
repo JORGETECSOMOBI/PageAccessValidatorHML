@@ -1,7 +1,7 @@
 {
-    "sistema": "https://web.test.tmob.com.br/system",
-    "grupoDeUsuario": "https://web.test.tmob.com.br/system/userGroups",
-    "grupoDeClientes": "https://web.test.tmob.com.br/system/clientGroups",
-    "usuario": "https://web.test.tmob.com.br/system/users",
-    "cliente": "https://web.test.tmob.com.br/system/clients"
+    "sistema": "https://web.hml.tmob.autopasscorp.com/system",
+    "grupoDeUsuario": "https://web.hml.tmob.autopasscorp.com/system/userGroups",
+    "grupoDeClientes": "https://web.hml.tmob.autopasscorp.com/system/clientGroups",
+    "usuario": "https://web.hml.tmob.autopasscorp.com/system/users",
+    "cliente": "https://web.hml.tmob.autopasscorp.com/system/clients"
 }

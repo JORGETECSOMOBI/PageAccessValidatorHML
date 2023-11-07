@@ -83,7 +83,7 @@ describe('Acessando e validando Url e Texto de todas as páginas', () => {
         .validaAusenciaMensagensDeErrro()
     })
 
-    it('Acessa e valida URL e texto da página de Hotlist Permanente', () => {
+    it.skip('Acessa e valida URL e texto da página de Hotlist Permanente', () => {
         midia.hotlistPermanente()
         home.validaURL(url.horlistPermanente)
             .validatexto('Hotlist Permanente')

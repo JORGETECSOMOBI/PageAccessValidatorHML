@@ -2,8 +2,8 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: "https://web.test.tmob.com.br",
-    retries: 2,
+    baseUrl: "https://web.hml.tmob.autopasscorp.com",
+    retries: 0,
 
     setupNodeEvents(on, config) {
       return config;

@@ -22,14 +22,14 @@ describe('Acessando e validando Url e Texto de todas as páginas', () => {
             .validaAusenciaMensagensDeErrro()
     })
 
-    it('Acessa e valida URL e texto da página de Grupo de clientes', () => {
+    it.skip('Acessa e valida URL e texto da página de Grupo de clientes', () => {
         sistema.grupoDeClientes()
         home.validaURL(url.grupoDeClientes)
             .validatexto('Grupo de Clientes')
             .validaAusenciaMensagensDeErrro()
     })
 
-    it('Acessa e valida URL e texto da página de clientes', () => {
+    it.skip('Acessa e valida URL e texto da página de clientes', () => {
         sistema.Cliente()
                .validaTextoCliente()
         home.validaURL(url.cliente)

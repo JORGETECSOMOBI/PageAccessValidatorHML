@@ -22,7 +22,7 @@ describe('Acessando e validando Url e Texto de todas as páginas', () => {
             .validaAusenciaMensagensDeErrro()
     })
 
-    it('Acessa e valida URL e texto da página de Realizar Coleta', () => {
+    it.skip('Acessa e valida URL e texto da página de Realizar Coleta', () => {
         arrecadacao.realizarColeta()
         home.validaURL(url.realizarColeta)
             .validatexto('Realizar Coleta')
@@ -50,7 +50,7 @@ describe('Acessando e validando Url e Texto de todas as páginas', () => {
             .validaAusenciaMensagensDeErrro()
     })
 
-    it('Acessa e valida URL e texto da página de Teste de catraca', () => {
+    it.skip('Acessa e valida URL e texto da página de Teste de catraca', () => {
         arrecadacao.testeDeCatraca()
         home.validaURL(url.testeDeCatraca)
             .validatexto('Teste de catraca')

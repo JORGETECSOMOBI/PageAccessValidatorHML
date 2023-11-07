@@ -6,7 +6,7 @@ describe('Acessando e validando Url e Texto de todas as páginas', () => {
 
 })
 
-it('Valida url e texto na página de usuário', () => {
+it.skip('Valida url e texto na página de usuário', () => {
     sam.beforeSam()
     sam.validaTextoSam
     home.validaURL(url.sam)

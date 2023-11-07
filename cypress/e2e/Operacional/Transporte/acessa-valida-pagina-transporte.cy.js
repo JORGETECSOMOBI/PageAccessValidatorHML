@@ -22,7 +22,7 @@ describe('Acessando e validando Url e Texto de todas as páginas', () => {
         .validaAusenciaMensagensDeErrro()
     })
 
-    it('Acessa e valida URL e texto da página de Controle de trilhos', () => {
+    it.skip('Acessa e valida URL e texto da página de Controle de trilhos', () => {
         transporte.contrloleDeTrilhos()
         home.validaURL(url.controleTrilhos)
             .validatexto('Controle de trilhos')

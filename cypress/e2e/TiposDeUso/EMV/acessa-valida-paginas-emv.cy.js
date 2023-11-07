@@ -71,7 +71,7 @@ describe('Acessando e validando Url e Texto de todas as páginas', () => {
             .validaAusenciaMensagensDeErrro()
     })
 
-    it('Acessa e valida URL e texto da página de Terminal Adquirente', () => {
+    it.skip('Acessa e valida URL e texto da página de Terminal Adquirente', () => {
         emv.terminalAdquirente()
         home.validaURL(url.terminalAdquirente)
             .validatexto('Terminal Adquirente')

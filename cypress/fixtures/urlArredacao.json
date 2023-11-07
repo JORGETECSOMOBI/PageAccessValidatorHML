@@ -1,13 +1,13 @@
 {
-    "dashboard": "https://web.test.tmob.com.br/ticketing/dashboard",
-    "servico": "https://web.test.tmob.com.br/ticketing/services",
-    "realizarColeta": "https://web.test.tmob.com.br/ticketing/collect",
-    "processamentoDeArquivos": "https://web.test.tmob.com.br/ticketing/fileProcessings",
-    "uso": "https://web.test.tmob.com.br/ticketing/usage",
-    "grupoDeColeta": "https://web.test.tmob.com.br/ticketing/groupCollectors",
-    "tipoGrupoDeColeta": "https://web.test.tmob.com.br/ticketing/collectorProductGroupTypes",
-    "coleta": "https://web.test.tmob.com.br/ticketing/collections",
-    "testeDeCatraca": "https://web.test.tmob.com.br/ticketing/turnistileTests",
-    "arquivosDeMidia": "https://web.test.tmob.com.br/ticketing/operatorCollectionFile",
-    "arquivosOperacionais": "https://web.test.tmob.com.br/ticketing/operationalFiles"
+    "dashboard": "https://web.hml.tmob.autopasscorp.com/ticketing/dashboard",
+    "servico": "https://web.hml.tmob.autopasscorp.com/ticketing/services",
+    "realizarColeta": "https://web.hml.tmob.autopasscorp.com/ticketing/collect",
+    "processamentoDeArquivos": "https://web.hml.tmob.autopasscorp.com/ticketing/fileProcessings",
+    "uso": "https://web.hml.tmob.autopasscorp.com/ticketing/usage",
+    "grupoDeColeta": "https://web.hml.tmob.autopasscorp.com/ticketing/groupCollectors",
+    "tipoGrupoDeColeta": "https://web.hml.tmob.autopasscorp.com/ticketing/collectorProductGroupTypes",
+    "coleta": "https://web.hml.tmob.autopasscorp.com/ticketing/collections",
+    "testeDeCatraca": "https://web.hml.tmob.autopasscorp.com/ticketing/turnistileTests",
+    "arquivosDeMidia": "https://web.hml.tmob.autopasscorp.com/ticketing/operatorCollectionFile",
+    "arquivosOperacionais": "https://web.hml.tmob.autopasscorp.com/ticketing/operationalFiles"
 }

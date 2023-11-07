@@ -1,6 +1,6 @@
 {
-    "comunicacao": "https://web.test.tmob.com.br/depot/",
-    "garagem": "https://web.test.tmob.com.br/depot/depots",
-    "ultimasComunicacoes": "https://web.test.tmob.com.br/depot/lastCommunications",
-    "arquivosOperacionais": "https://web.test.tmob.com.br/depot/operationalFiles"
+    "comunicacao": "https://web.hml.tmob.autopasscorp.com/depot/",
+    "garagem": "https://web.hml.tmob.autopasscorp.com/depot/depots",
+    "ultimasComunicacoes": "https://web.hml.tmob.autopasscorp.com/depot/lastCommunications",
+    "arquivosOperacionais": "https://web.hml.tmob.autopasscorp.com/depot/operationalFiles"
 }

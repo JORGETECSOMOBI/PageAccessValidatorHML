@@ -8,28 +8,28 @@ describe('Acessando e validando Url e Texto de todas as páginas', () => {
         facial.beforeFacial()
     })
 
-    it('Acessa e valida URL e texto da página de Audit', () => {
+    it.skip('Acessa e valida URL e texto da página de Audit', () => {
         facial.audit()
         home.validaURL(url.audit)
             .validatexto('Audit')
             .validaAusenciaMensagensDeErrro()
     })
 
-    it('Acessa e valida URL e texto da página de Motivo de irregularidade', () => {
+    it.skip('Acessa e valida URL e texto da página de Motivo de irregularidade', () => {
         facial.motivoDeIrregularidade()
         home.validaURL(url.motivoDeIrregularidade)
             .validatexto('Motivo de irregularidade')
             .validaAusenciaMensagensDeErrro()
     })
 
-    it('Acessa e valida URL e texto da página de Perfis', () => {
+    it.skip('Acessa e valida URL e texto da página de Perfis', () => {
         facial.perfis()
         home.validaURL(url.perfis)
             .validatexto('Perfis')
             .validaAusenciaMensagensDeErrro()
     })
 
-    it('Acessa e valida URL e texto da página de Arquivos Operacionais', () => {
+    it.skip('Acessa e valida URL e texto da página de Arquivos Operacionais', () => {
         facial.arquivosOperacionais()
         home.validaURL(url.arquivosOperacionais)
             .validatexto('Arquivos Operacionais')

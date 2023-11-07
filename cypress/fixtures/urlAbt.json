@@ -1,7 +1,7 @@
 {
-    "abt": "https://web.test.tmob.com.br/abt",
-    "carteira": "https://web.test.tmob.com.br/abt/wallets",
-    "razoesDeHotlist": "https://web.test.tmob.com.br/abt/hotlistReasons",
-    "razoesdeTransacao": "https://web.test.tmob.com.br/abt/transactionReasons",
-    "arquivosDeAbt": "https://web.test.tmob.com.br/abt/files"
+    "abt": "https://web.hml.tmob.autopasscorp.com/abt",
+    "carteira": "https://web.hml.tmob.autopasscorp.com/abt/wallets",
+    "razoesDeHotlist": "https://web.hml.tmob.autopasscorp.com/abt/hotlistReasons",
+    "razoesdeTransacao": "https://web.hml.tmob.autopasscorp.com/abt/transactionReasons",
+    "arquivosDeAbt": "https://web.hml.tmob.autopasscorp.com/abt/files"
 }

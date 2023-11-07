@@ -1,13 +1,13 @@
 {
-    "dispositivo": "https://web.test.tmob.com.br/device/?companyDesc&deviceType=validator&tabs=1",
-    "dashboard": "https://web.test.tmob.com.br/device/dashboard",
-    "dispositivos": "https://web.test.tmob.com.br/device/things",
-    "feriado": "https://web.test.tmob.com.br/device/holidays",
-    "firmware": "https://web.test.tmob.com.br/device/firmwares",
-    "parametros": "https://web.test.tmob.com.br/device/parameters",
-    "configuracaoDeOperacao": "https://web.test.tmob.com.br/device/operationalConfig",
-    "mensagensDisplay": "https://web.test.tmob.com.br/device/messages",
-    "configDispositivo": "https://web.test.tmob.com.br/device/device-configs",
-    "arquivosOperacionais": "https://web.test.tmob.com.br/device/operationalFiles",
-    "hardware": "https://web.test.tmob.com.br/device/hardwares"
+    "dispositivo": "https://web.hml.tmob.autopasscorp.com/device/?companyDesc&deviceType=validator&tabs=1",
+    "dashboard": "https://web.hml.tmob.autopasscorp.com/device/dashboard",
+    "dispositivos": "https://web.hml.tmob.autopasscorp.com/device/things",
+    "feriado": "https://web.hml.tmob.autopasscorp.com/device/holidays",
+    "firmware": "https://web.hml.tmob.autopasscorp.com/device/firmwares",
+    "parametros": "https://web.hml.tmob.autopasscorp.com/device/parameters",
+    "configuracaoDeOperacao": "https://web.hml.tmob.autopasscorp.com/device/operationalConfig",
+    "mensagensDisplay": "https://web.hml.tmob.autopasscorp.com/device/messages",
+    "configDispositivo": "https://web.hml.tmob.autopasscorp.com/device/device-configs",
+    "arquivosOperacionais": "https://web.hml.tmob.autopasscorp.com/device/operationalFiles",
+    "hardware": "https://web.hml.tmob.autopasscorp.com/device/hardwares"
 }

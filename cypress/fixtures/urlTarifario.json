@@ -1,11 +1,11 @@
 {
-    "tarifario": "https://web.test.tmob.com.br/fare",
-    "regras": "https://web.test.tmob.com.br/fare/",
-    "descontos": "https://web.test.tmob.com.br/fare/discounts",
-    "sessoes": "https://web.test.tmob.com.br/fare/sections",
-    "grupoDeLinha": "https://web.test.tmob.com.br/fare/lineIntegrations",
-    "grupoDeIntegracao": "https://web.test.tmob.com.br/fare/integrationGroups",
-    "correlacaoTarifaria": "https://web.test.tmob.com.br/fare/correlations",
-    "integracao": "https://web.test.tmob.com.br/fare/integrations",
-    "arquivosOperacionais": "https://web.test.tmob.com.br/fare/operationalfiles"
+    "tarifario": "https://web.hml.tmob.autopasscorp.com/fare",
+    "regras": "https://web.hml.tmob.autopasscorp.com/fare/",
+    "descontos": "https://web.hml.tmob.autopasscorp.com/fare/discounts",
+    "sessoes": "https://web.hml.tmob.autopasscorp.com/fare/sections",
+    "grupoDeLinha": "https://web.hml.tmob.autopasscorp.com/fare/lineIntegrations",
+    "grupoDeIntegracao": "https://web.hml.tmob.autopasscorp.com/fare/integrationGroups",
+    "correlacaoTarifaria": "https://web.hml.tmob.autopasscorp.com/fare/correlations",
+    "integracao": "https://web.hml.tmob.autopasscorp.com/fare/integrations",
+    "arquivosOperacionais": "https://web.hml.tmob.autopasscorp.com/fare/operationalfiles"
 }

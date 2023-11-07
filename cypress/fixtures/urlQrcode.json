@@ -1,12 +1,12 @@
 {
-    "qrcode": "https://web.test.tmob.com.br/qrcode",
-    "dashboard": "https://web.test.tmob.com.br/qrcode/dashboard",
-    "produto": "https://web.test.tmob.com.br/qrcode/products",
-    "lote": "https://web.test.tmob.com.br/qrcode/batches",
-    "qrcode": "https://web.test.tmob.com.br/qrcode/medias",
-    "uso": "https://web.test.tmob.com.br/qrcode/usage",
-    "arquivosDeMidia": "https://web.test.tmob.com.br/qrcode/mediafiles",
-    "arquivosOperacionais": "https://web.test.tmob.com.br/qrcode/operationalfiles",
-    "resumoDeQrcode": "https://web.test.tmob.com.br/qrcode/summary",
-    "consulta": "https://web.test.tmob.com.br/qrcode/query"
+    "qrcode": "https://web.hml.tmob.autopasscorp.com/qrcode",
+    "dashboard": "https://web.hml.tmob.autopasscorp.com/qrcode/dashboard",
+    "produto": "https://web.hml.tmob.autopasscorp.com/qrcode/products",
+    "lote": "https://web.hml.tmob.autopasscorp.com/qrcode/batches",
+    "qrcode": "https://web.hml.tmob.autopasscorp.com/qrcode/medias",
+    "uso": "https://web.hml.tmob.autopasscorp.com/qrcode/usage",
+    "arquivosDeMidia": "https://web.hml.tmob.autopasscorp.com/qrcode/mediafiles",
+    "arquivosOperacionais": "https://web.hml.tmob.autopasscorp.com/qrcode/operationalfiles",
+    "resumoDeQrcode": "https://web.hml.tmob.autopasscorp.com/qrcode/summary",
+    "consulta": "https://web.hml.tmob.autopasscorp.com/qrcode/query"
 }
