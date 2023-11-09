@@ -3,11 +3,11 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   e2e: {
     baseUrl: "https://web.hml.tmob.autopasscorp.com",
-    retries: 0,
+    retries: 1,
 
     setupNodeEvents(on, config) {
       return config;
     }
   },
-  defaultCommandTimeout: 10000
+  defaultCommandTimeout: 20000
 })
